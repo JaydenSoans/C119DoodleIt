@@ -1,0 +1,36 @@
+body {
+    background-color: #f5cb42;
+}
+
+h1 {
+    color: crimson;
+    background-color: rgb(237, 234, 166);
+    padding: 20px;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid rgb(214, 96, 96);
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: MeesterC;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes MeesterC {
+    from {
+        box-shadow: 10px 10px 38px purple;
+    }
+    to {
+        box-shadow: 10px 10px 38px blue;
+    }
+}
